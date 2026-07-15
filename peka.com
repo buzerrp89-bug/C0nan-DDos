@@ -49,7 +49,7 @@ print("\033[36mnamun tangannya membaea pelita secercah harapan")
 time.sleep(3)
 print("\033[36mmengenai hidup layak dan berkeadilan")
 time.sleep(3)
-print("\033[36mPALESTINA.....!!
+print("\033[36mPALESTINA.....!!")
 time.sleep(3)
 print("\033[36mKami tak rela engkau selalu dlm bayang² GENOSIDA")
 time.sleep(10)
