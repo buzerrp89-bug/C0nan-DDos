@@ -48,15 +48,15 @@ logo = """
 \033[36m╰───╯│   ││   ╰│   ││    \033[37m│   ││   ││  ╭╯│   │\033[36m │    │   ││ │  │
 \033[36m│   ││   ││    │   │╰───╮\033[37m┌───╯╭───╯│──╯╮│   │\033[36m•│    │   ││ │  │
 \033[36m╯   ╰╰──╰┘╯    ╰───╯╰───╯\033[37m╯    ╰───╯╯   ╰╰──╰┘\033[36m ╰───╯╰───╯╯    │
-\033[37m     ─────────────────────────────────────────────────────────╯
+\033[37m    ─────────────────────────────────────────────────────────╯
 """
 faded_text = fade.fire(logo)
 print(faded_text)
 while attemps < 100:
-    username = input("\033[32m┏> Enter your username:\033[30m")
-    password = input("\033[32m┗> Enter your password:\033[30m")
+    username = input("\033[36m•> Enter your username:\033[30m")
+    password = input("\033[36m•> Enter your password:\033[30m")
 
-    if username == 'fucking' and password == 'love':
+    if username == 'peka' and password == 'napa':
         print("\033[48;5;3m•••⟩⟩ BLACK ARMY COMUNNITY ...!!\033[0m")
         break
     else:
