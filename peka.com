@@ -52,7 +52,7 @@ time.sleep(3)
 print("\033[36mPALESTINA.....!!")
 time.sleep(3)
 print("\033[36mKami tak rela engkau selalu dlm bayang² GENOSIDA")
-time.sleep(10)
+time.sleep(15)
 attemps = 0
 os.system('clear')
 logo = """
