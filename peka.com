@@ -29,9 +29,21 @@ class bcolors:
     BrightMagenta = "\033[48;5;5m  \033[0m"
     BrightCyan = "\033[48;5;6m  \033[0m"
     BrightWhite = "\033[48;5;7m  \033[0m"
-
-    
-    
+time.sleep(3)
+print("\033[36mIni bukan tentang siapa yg pintar")
+time.sleep(3)
+print("\033[36mtapi tentang tangan siapa yg mau saling menggenggam")
+time.sleep(3)
+print("\033[36mbekerja sama dalam berjuang")
+time.sleep(3)
+print("\033[36mtanpa peduli akan siapa dia")
+time.sleep(3)
+print("\033[36mtak dikenal bahkan tanpa nama")
+time.sleep(3)
+print("\033[36myang jelas...")
+time.sleep(3)
+print("\033[36mDia tak rela melihat saudaranya di GENOSIDA")
+time.sleep(5)
 attemps = 0
 os.system('clear')
 logo = """
