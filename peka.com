@@ -1,5 +1,4 @@
 #!usr/bin/python
-# _*_ coding: utf-8 _*_
 import os
 import sys
 import time
@@ -116,7 +115,7 @@ async def main():
             pps, cps = 0, 0
             await sleep(1)
             timer -= 1
-            print(f"\033[38;5;220m[c0nan.id]\033[37m PPS: {pps:,} \033[36m| CPS: {cps:,} \033[32m[Info target] \033[38;5;6m{target}\033[0m\033[33m[Time Remaining]\033[37m{timer:,}s")
+            print(f"\033[38;5;220m[c0nan.id]\033[37m PPS: {pps:,} \033[36m| CPS: {cps:,} \033[32m[Host] \033[38;5;6m{target} \033[0m\033[33m[time] \033[37m{timer:,}s")
         event.clear()
     except AssertionError as e:
         print(str(e) or repr(e))
