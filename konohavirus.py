@@ -116,10 +116,7 @@ async def main():
             pps, cps = 0, 0
             await sleep(1)
             timer -= 1
-            print(f"\033[48;5;4m\033[30m PPS: {pps:,} | CPS: {cps:,} \033[0m\033[38;5;3m|Time Remaining:{timer:,}s")
-            await sleep(1)
-            timer -= 1
-            print(f"\033[32m--Info target \033[38;5;6m" +str(target)+ "\033[0m")
+            print(f"\033[38;5;220m[c0nan.id]\033[33m PPS: {pps:,} \033[36m| CPS: {cps:,} \033[32m--Info target: \033[38;5;6m" +str(target)+ "\033[0m\033[37m|Time Remaining:{timer:,}s")
         event.clear()
     except AssertionError as e:
         print(str(e) or repr(e))
