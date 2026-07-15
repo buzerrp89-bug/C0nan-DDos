@@ -48,7 +48,7 @@ logo = """
 ╰──╯│  ││  ╰│  ││   "\033[36m│  │
 │  ││  ││   │  │╰──╮"\033[36m┌──╯
 ╯  ╰╰──┘╯   ╰──╯╰──╯"\033[36m╯
-"""╯
+"""
 faded_text = fade.fire(logo)
 print(faded_text)
 while attemps < 100:
