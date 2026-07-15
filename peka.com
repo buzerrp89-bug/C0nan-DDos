@@ -29,6 +29,7 @@ class bcolors:
     BrightMagenta = "\033[48;5;5m  \033[0m"
     BrightCyan = "\033[48;5;6m  \033[0m"
     BrightWhite = "\033[48;5;7m  \033[0m"
+os.system('clear')
 time.sleep(3)
 print("\033[36mIni bukan tentang siapa yg pintar")
 time.sleep(3)
