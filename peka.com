@@ -45,7 +45,7 @@ print("\033[36m👉 Ini Dunia\033[37m anonim\033[0m\033[36m bahkan kau hrs siap 
 time.sleep(3)
 print("\033[36m👉 bersembunyi dibalik\033[37m topeng kegelapan")
 time.sleep(3)
-print("\033[36m👉 namun tangannya membaea pelita\033[37m secercah harapan")
+print("\033[36m👉 namun tangannya membawa pelita\033[37m secercah harapan")
 time.sleep(3)
 print("\033[36m👉 mengenai hidup layak dan\033[37m berkeadilan")
 time.sleep(3)
